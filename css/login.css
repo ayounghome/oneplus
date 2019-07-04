@@ -1,0 +1,93 @@
+
+.height-vh-auto{
+    position: relative;
+    min-height: 81vh;
+    background-color: #f9f9f9;
+}
+.sign-in-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    padding: 50px 20px 100px;
+}
+.sign-in-content .text-black{
+    color:#101020;
+    font-weight: 300;
+    font-size: 20px;
+}
+.text-center{
+    text-align: center
+}
+.form-group{
+    margin-top: 10px;
+}
+.form-group.common-login{
+    margin-top: 30px;
+}
+.sign-in-content input{
+    box-sizing:border-box;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    cursor: pointer;
+    line-height: 24px;
+    color: #101920;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .1);
+    outline:none;
+    border-radius: 2px;
+}
+#userName:hover,#pwd:hover{
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+.text-sm{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.sign-in-content .link-btn{
+    display: inline-block;
+    color: #09c;
+    cursor: pointer;  
+}
+.sign-in-content .link-btn:hover{
+    text-decoration: underline;
+}
+.sign-in-content .con-link{
+    width: 1px;
+    height: 1em;
+    background-color: #dfdfdf;
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: middle;
+    margin: 0 1em;
+}
+.sign-in-content .text-xs{
+    margin-top: 30px;
+    color: #666;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.sign-in-content fieldset{
+    border-color: #e6e6e6;
+    border-width: 1px 0 0;
+}
+.sign-in-content legend{
+    padding: 0 10px;
+}
+.sign-in-content .third-login{
+    display: flex;
+    justify-content: space-around;
+}
+.sign-in-content .third-login-btn{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.sign-in-content .third-login-btn:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
